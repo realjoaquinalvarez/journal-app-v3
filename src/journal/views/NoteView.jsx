@@ -31,7 +31,7 @@ export const NoteView = () => {
 
     useEffect(() => {
       if ( messageSaved.length > 0 ) {
-          Swal.fire('Nota actualizada', messageSaved, 'success');
+          Swal.fire('TE AMO MICA MI BB', messageSaved, 'success');
       }
     }, [messageSaved])
     
@@ -135,4 +135,4 @@ export const NoteView = () => {
 
         </Grid>
     )
-}
+    }
