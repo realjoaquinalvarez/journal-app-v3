@@ -31,7 +31,7 @@ export const NoteView = () => {
 
     useEffect(() => {
       if ( messageSaved.length > 0 ) {
-          Swal.fire('TE AMO MICA MI BB', messageSaved, 'success');
+          Swal.fire('Nota actualizada', messageSaved, 'success');
       }
     }, [messageSaved])
     
